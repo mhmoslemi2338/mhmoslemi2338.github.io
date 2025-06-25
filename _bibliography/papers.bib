@@ -3,113 +3,59 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{pirhadi2024otclean,
+  title={Otclean: Data cleaning for conditional independence violations using optimal transport},
+  author={Pirhadi, Alireza and Moslemi, Mohammad Hossein and Cloninger, Alexander and Milani, Mostafa and Salimi, Babak},
+  journal={Proceedings of the ACM on Management of Data (SIGMOD)},
+  volume={2},
+  number={3},
+  pages={1--26},
+  year={2024},
+  selected=true,
+  publisher={ACM New York, NY, USA},
+  slides={otclean-sigmod24.pdf},
+  abstract={Ensuring Conditional Independence (CI) constraints is pivotal for the development of fair and trustworthy machine learning models. In this paper, we introduce OTClean, a framework that harnesses optimal transport theory for data repair under CI constraints. Optimal transport theory provides a rigorous framework for measuring the discrepancy between probability distributions, thereby ensuring control over data utility. We formulate the data repair problem concerning CIs as a Quadratically Constrained Linear Program (QCLP) and propose an alternating method for its solution. However, this approach faces scalability issues due to the computational cost associated with computing optimal transport distances, such as the Wasserstein distance. To overcome these scalability challenges, we reframe our problem as a regularized optimization problem, enabling us to develop an iterative algorithm inspired by Sinkhorn's matrix scaling algorithm, which efficiently addresses high-dimensional and large-scale data. Through extensive experiments, we demonstrate the efficacy and efficiency of our proposed methods, showcasing their practical utility in real-world data cleaning and preprocessing tasks. Furthermore, we provide comparisons with traditional approaches, highlighting the superiority of our techniques in terms of preserving data utility while ensuring adherence to the desired CI constraints.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{moslemi2024threshold,
+  title={Threshold-independent fair matching through score calibration},
+  author={Moslemi, Mohammad Hossein and Milani, Mostafa},
+  booktitle={Proceedings of the Conference on Governance, Understanding and Integration of Data for Effective and Responsible AI at SIGMOD},
+  pages={40--44},
+  year={2024},
   selected={true},
-  inspirehep_id = {3255}
+  code={https://github.com/mhmoslemi2338/CaliFair-EM},
+  abstract={Entity Matching (EM) is a critical task in numerous fields, such as healthcare, finance, and public administration, as it identifies records that refer to the same entity within or across different databases. EM faces considerable challenges, particularly with false positives and negatives. These are typically addressed by generating matching scores and apply thresholds to balance false positives and negatives in various contexts.However, adjusting these thresholds can affect the fairness of the outcomes, a critical factor that remains largely overlooked in current fair EM research. The existing body of research on fair EM tends to concentrate on static thresholds, neglecting their critical impact on fairness. To address this, we introduce a new approach in EM using recent metrics for evaluating biases in score-based binary classification, particularly through the lens of distributional parity. This approach enables the application of various bias metrics—like equalized odds, equal opportunity, and demographic parity—without depending on threshold settings. Our experiments with leading matching methods reveal potential biases, and by applying a calibration technique for EM scores using Wasserstein barycenters, we not only mitigate these biases but also preserve accuracy across real-world datasets. This paper contributes to the field of fairness in data cleaning, especially within EM, which is a central task in data cleaning, by promoting a method for generating matching scores that reduce biases across different thresholds.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{moslemi2024evaluating,
+  title={Evaluating Blocking Biases in Entity Matching},
+  author={Moslemi, Mohammad Hossein and Balamurugan, Harini and Milani, Mostafa},
+  booktitle={IEEE International Conference on Big Data (BigData)},
+  pages={64--73},
+  year={2024},
+  organization={IEEE},
+  selected=true,
+  slides={blockBias_ieee24.pdf},
+  code={https://github.com/mhmoslemi2338/pre-EM-bias},
+  abstract={Entity Matching (EM) is crucial for identifying equivalent data entities across different sources, a task that becomes increasingly challenging with the growth and heterogeneity of data. Blocking techniques, which reduce the computational complexity of EM, play a vital role in making this process scalable. Despite advancements in blocking methods, the issue of fairness—where blocking may inadvertently favor certain demographic groups—has been largely overlooked. This study extends traditional blocking metrics to incorporate fairness, providing a framework for assessing bias in blocking techniques. Through experimental analysis, we evaluate the effectiveness and fairness of various blocking methods, offering insights into their potential biases. Our findings highlight the importance of considering fairness in EM, particularly in the blocking phase, to ensure equitable outcomes in data integration tasks.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{moslemi2025fairness,
+  title={Fairness in Entity Matching and Blocking},
+  author={Moslemi, Mohammad Hossein},
+  year={2025},
+  abstract={Entity Matching (EM) is a key task in data integration that identifies records referring to the same real-world entity. While most research focuses on improving accuracy, fairness has received much less attention. This thesis addresses fairness in EM from two main perspectives: (1) blocking, the preprocessing step that filters candidate pairs, and (2) matching, where pairs are classified as matches or non-matches. The first part of the thesis examines fairness in blocking, a step that is often overlooked in fairness studies on EM. Blocking reduces the number of candidate pairs to improve efficiency while aiming to retain true matches. However, blocking can introduce bias if it disproportionately removes matching records from certain demographic groups. To address this issue, the thesis introduces bias measures for blocking by extending standard quality metrics to compare results across demographic groups. An evaluation of common blocking methods on standard EM benchmarks reveals clear disparities in blocking outcomes. These biases are shown to propagate to the downstream matching step, where they lead to amplified disparities in the final results. The second part of the thesis studies fairness in matching. While most existing work focuses on fairness in final match decisions, many EM systems use score-based matchers. This thesis argues that fairness should also be evaluated at the score level. To measure bias in scores, it introduces score bias, which captures disparities by comparing score distributions across demographic groups. To reduce these disparities, score calibration algorithms are proposed that adjust scores for each group while maintaining accuracy. Experiments on EM benchmarks show that matching scores often reflect disparities and that score calibration algorithms reduce these biases with minimum impact on accuracy.
+By addressing fairness in both blocking and matching, this thesis provides a deeper understanding of bias in EM and introduces practical methods to reduce it.},
+
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{moslemi2024mitigating,
+  title={Mitigating Matching Biases Through Score Calibration},
+  author={Moslemi, Mohammad Hossein and Milani, Mostafa},
+  journal={arXiv preprint arXiv:2411.01685},
+  code={https://github.com/mhmoslemi2338/sigmod-FAIR-EM-post-process},
+  arxiv={2411.01685},
+  year={2024}
 }
