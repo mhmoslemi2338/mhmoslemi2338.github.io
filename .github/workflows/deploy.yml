@@ -66,40 +66,59 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
+
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
-      - name: Update _config.yml ⚙️
+      
+      - name: Install Node.js 📦 (for purgecss and other JS tools)
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+
+      
+      - name: Update _config.yml (giscus) ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
           commitChange: false
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install and Build 🔧
+
+
+      - name: Install System + Python + Ruby Deps 🧰
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          pip install --upgrade nbconvert
+
+      - name: Build Jekyll Site 🔧
+        run: |
           export JEKYLL_ENV=production
           bundle exec jekyll build
-      - name: Purge unused CSS 🧹
+
+      - name: Purge Unused CSS 🧹
         run: |
           npm install -g purgecss
-          purgecss -c purgecss.config.js
-      - name: Deploy 🚀
+          purgecss -c purgecss.config.js || echo "purgecss failed but site will still deploy"
+
+      - name: Deploy to GitHub Pages 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages
           folder: _site
+          clean: true
