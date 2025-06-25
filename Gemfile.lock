@@ -273,6 +273,7 @@ GEM
     webrick (1.9.1)
 
 PLATFORMS
+  ruby
   aarch64-linux
   aarch64-linux-gnu
   aarch64-linux-musl
