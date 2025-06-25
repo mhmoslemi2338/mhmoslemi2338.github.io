@@ -91,6 +91,7 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           bundle install
+          export JEKYLL_ENV=production
           bundle install
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
@@ -101,4 +102,6 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages
           folder: _site
+          clean: true
