@@ -8,10 +8,10 @@ on:
     paths:
       - "assets/**"
       - "_sass/**"
+      - "_scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
-
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
@@ -23,6 +23,7 @@ on:
       - "!.github/workflows/deploy-image.yml"
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
@@ -36,6 +37,7 @@ on:
     paths:
       - "assets/**"
       - "_sass/**"
+      - "_scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -50,7 +52,7 @@ on:
       - "!.github/workflows/deploy-image.yml"
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
-      #- "!.github/workflows/prettier.yml"
+      - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
@@ -74,21 +76,11 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
-      - name: Update Bundler
-        run: gem install bundler 
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "16"
-        #- name: Debug Jekyll
-          #run: |
-            #cat _config.yml
-            #bundle list
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -101,7 +93,7 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
-          bundle exec jekyll build --trace
+          bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
@@ -110,4 +102,4 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder:  _site`
+          folder: _site
