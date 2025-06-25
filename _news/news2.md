@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Selected for the *Outstanding Senior Project Award* in Electrical Engineering at Sharif University. Recognized for raising the bar in technical quality and creativity.
+Selected for the _Outstanding Senior Project Award_ in Electrical Engineering at Sharif University. Recognized for raising the bar in technical quality and creativity.
 
 <!-- ---
 layout: post

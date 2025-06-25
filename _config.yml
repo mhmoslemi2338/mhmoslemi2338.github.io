@@ -14,7 +14,6 @@ keywords: Trustworthy ML, AI Ethics, Data Cleaning, Research
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-
 url: https://mhmoslemi2338.github.io # the base hostname & protocol for your site
 baseurl:
 last_updated: true # set to true if you want to display last updated in the footer
@@ -29,7 +28,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -345,17 +344,13 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
-  - _posts/ 
-  - _pages/teaching.md
-  - _pages/profiles.md
-  - _pages/books.md
-  - _pages/blog.md
-  - _books/
-  - _pages/teaching.md
-
-  
-
-
+    - _posts/
+    - _pages/teaching.md
+    - _pages/profiles.md
+    - _pages/books.md
+    - _pages/blog.md
+    - _books/
+    - _pages/teaching.md
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

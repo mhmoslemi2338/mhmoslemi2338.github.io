@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mhmoslemi2338
 
-repo_description_lines_max: 2
+repo_description_lines_max: 1
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - mhmoslemi2338/pre-EM-bias
+  - mhmoslemi2338/Heterogeneity_EM_Survey
+  - mhmoslemi2338/sigmod-FAIR-EM-post-process
+  - mhmoslemi2338/CaliFair-EM
