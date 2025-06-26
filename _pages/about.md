@@ -74,7 +74,7 @@ I'm currently seeking research and development roles in responsible AI, fairness
 <div style="text-align: justify">
 
   <p>
-    I’m a responsible-AI researcher with a background in electrical engineering, focused on developing data-driven methods for trustworthy AI. My interests include fairness, robustness, and explainability in ML systems. I approach research with an engineering mindset shaped by my undergraduate training at Sharif University, where I worked on biomedical imaging and automatic speech recognition under the supervision of <a href="https://sharif.ir/~aamini/" target="_blank">Dr. Arash Amini</a> and <a href="https://sharif.edu/~sameti/" target="_blank">Dr. Hossein Sameti</a>.
+    I’m a responsible-AI researcher with a background in electrical engineering, focused on developing data-driven methods for trustworthy AI. My interests include fairness, robustness, and explainability in ML systems. 
   </p>
 
   <p>
@@ -86,3 +86,5 @@ I'm currently seeking research and development roles in responsible AI, fairness
   </p>
 
 </div>
+<!-- 
+I approach research with an engineering mindset shaped by my undergraduate training at Sharif University, where I worked on biomedical imaging and automatic speech recognition under the supervision of <a href="https://sharif.ir/~aamini/" target="_blank">Dr. Arash Amini</a> and <a href="https://sharif.edu/~sameti/" target="_blank">Dr. Hossein Sameti</a>. -->
