@@ -82,7 +82,7 @@ I'm currently seeking research and development roles in responsible AI, fairness
   </p>
 
   <p>
-    I'm currently seeking research and development roles in responsible AI, fairness in ML, and applied ML. I’m also open to research collaborations across academia and industry.
+    I'm currently seeking research and development roles in responsible AI, fairness in ML, and applied ML. I’m also open to research collaborations across academia and industry. You can learn more about me from my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>.
   </p>
 
 </div>
