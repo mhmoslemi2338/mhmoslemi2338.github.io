@@ -1,7 +1,6 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
 @article{pirhadi2024otclean,
   title={Otclean: Data cleaning for conditional independence violations using optimal transport},
@@ -14,6 +13,7 @@
   selected=true,
   publisher={ACM New York, NY, USA},
   slides={otclean-sigmod24.pdf},
+  abbr ={SIGMOD},
   abstract={Ensuring Conditional Independence (CI) constraints is pivotal for the development of fair and trustworthy machine learning models. In this paper, we introduce OTClean, a framework that harnesses optimal transport theory for data repair under CI constraints. Optimal transport theory provides a rigorous framework for measuring the discrepancy between probability distributions, thereby ensuring control over data utility. We formulate the data repair problem concerning CIs as a Quadratically Constrained Linear Program (QCLP) and propose an alternating method for its solution. However, this approach faces scalability issues due to the computational cost associated with computing optimal transport distances, such as the Wasserstein distance. To overcome these scalability challenges, we reframe our problem as a regularized optimization problem, enabling us to develop an iterative algorithm inspired by Sinkhorn's matrix scaling algorithm, which efficiently addresses high-dimensional and large-scale data. Through extensive experiments, we demonstrate the efficacy and efficiency of our proposed methods, showcasing their practical utility in real-world data cleaning and preprocessing tasks. Furthermore, we provide comparisons with traditional approaches, highlighting the superiority of our techniques in terms of preserving data utility while ensuring adherence to the desired CI constraints.}
 }
 
@@ -23,6 +23,7 @@
   booktitle={Proceedings of the Conference on Governance, Understanding and Integration of Data for Effective and Responsible AI at SIGMOD},
   pages={40--44},
   year={2024},
+  abbr ={GUIDE-AI},
   selected={true},
   code={https://github.com/mhmoslemi2338/CaliFair-EM},
   abstract={Entity Matching (EM) is a critical task in numerous fields, such as healthcare, finance, and public administration, as it identifies records that refer to the same entity within or across different databases. EM faces considerable challenges, particularly with false positives and negatives. These are typically addressed by generating matching scores and apply thresholds to balance false positives and negatives in various contexts.However, adjusting these thresholds can affect the fairness of the outcomes, a critical factor that remains largely overlooked in current fair EM research. The existing body of research on fair EM tends to concentrate on static thresholds, neglecting their critical impact on fairness. To address this, we introduce a new approach in EM using recent metrics for evaluating biases in score-based binary classification, particularly through the lens of distributional parity. This approach enables the application of various bias metrics—like equalized odds, equal opportunity, and demographic parity—without depending on threshold settings. Our experiments with leading matching methods reveal potential biases, and by applying a calibration technique for EM scores using Wasserstein barycenters, we not only mitigate these biases but also preserve accuracy across real-world datasets. This paper contributes to the field of fairness in data cleaning, especially within EM, which is a central task in data cleaning, by promoting a method for generating matching scores that reduce biases across different thresholds.}
@@ -35,6 +36,7 @@
   pages={64--73},
   year={2024},
   organization={IEEE},
+  abbr ={IEEEBigData},
   selected=true,
   slides={blockBias_ieee24.pdf},
   code={https://github.com/mhmoslemi2338/pre-EM-bias},
@@ -45,6 +47,7 @@
   title={Fairness in Entity Matching and Blocking},
   author={Moslemi, Mohammad Hossein},
   year={2025},
+  abbr ={Thesis},
   abstract={Entity Matching (EM) is a key task in data integration that identifies records referring to the same real-world entity. While most research focuses on improving accuracy, fairness has received much less attention. This thesis addresses fairness in EM from two main perspectives: (1) blocking, the preprocessing step that filters candidate pairs, and (2) matching, where pairs are classified as matches or non-matches. The first part of the thesis examines fairness in blocking, a step that is often overlooked in fairness studies on EM. Blocking reduces the number of candidate pairs to improve efficiency while aiming to retain true matches. However, blocking can introduce bias if it disproportionately removes matching records from certain demographic groups. To address this issue, the thesis introduces bias measures for blocking by extending standard quality metrics to compare results across demographic groups. An evaluation of common blocking methods on standard EM benchmarks reveals clear disparities in blocking outcomes. These biases are shown to propagate to the downstream matching step, where they lead to amplified disparities in the final results. The second part of the thesis studies fairness in matching. While most existing work focuses on fairness in final match decisions, many EM systems use score-based matchers. This thesis argues that fairness should also be evaluated at the score level. To measure bias in scores, it introduces score bias, which captures disparities by comparing score distributions across demographic groups. To reduce these disparities, score calibration algorithms are proposed that adjust scores for each group while maintaining accuracy. Experiments on EM benchmarks show that matching scores often reflect disparities and that score calibration algorithms reduce these biases with minimum impact on accuracy.
 By addressing fairness in both blocking and matching, this thesis provides a deeper understanding of bias in EM and introduces practical methods to reduce it.},
 
@@ -52,10 +55,29 @@ By addressing fairness in both blocking and matching, this thesis provides a dee
 
 
 @article{moslemi2024mitigating,
-  title={Mitigating Matching Biases Through Score Calibration},
+  title={Reducing Biases in Record Matching through Scores Calibration},
   author={Moslemi, Mohammad Hossein and Milani, Mostafa},
   journal={arXiv preprint arXiv:2411.01685},
   code={https://github.com/mhmoslemi2338/sigmod-FAIR-EM-post-process},
   arxiv={2411.01685},
-  year={2024}
+  year={2025},
+  abbr ={Preprint},
+  abstract={Record matching is the task of identifying records that refer to the same real-world entity across datasets. While most existing models optimize for accuracy, fairness has become an important concern due to the potential for unequal outcomes across demographic groups. 
+Prior work typically focuses on binary outcomes evaluated at fixed decision thresholds. 
+However, such evaluations can miss biases in matching scores--biases that persist across thresholds and affect downstream tasks.
+We propose a threshold-independent framework for measuring and reducing score bias, defined as disparities in the distribution of matching scores across groups. We show that several state-of-the-art matching methods exhibit substantial score bias, even when appearing fair under standard threshold-based metrics. To address this, we introduce two post-processing score calibration algorithms. The first, Calib, aligns group-wise score distributions using the Wasserstein barycenter, targeting demographic parity. The second, C-Calib, conditions on predicted labels to further reduce label-dependent biases, such as equal opportunity.
+Both methods are model-agnostic and require no access to model training data. Calib also offers theoretical guarantees, ensuring reduced bias with minimal deviation from original scores. 
+Experiments across real-world datasets and matching models confirm that Calib and C-Calib substantially reduce score bias while minimally impacting model accuracy.}
 }
+
+
+@article{moslemi2025Heterogeneity,
+  title={Heterogeneity in Entity Matching: A Survey and Experimental Analysis},
+  author={Moslemi, Mohammad Hossein and Mousavi, Amir and Behkamal, Behshid and Milani, Mostafa},
+  year={2025},
+  abbr ={Preprint},
+  abstract={Entity matching (EM) is a cornerstone of data management and a critical task for ensuring data accuracy and consistency across disparate sources. Its importance has grown in today's data-driven world, where effectively linking diverse datasets is essential for generating valuable insights. However, EM becomes particularly challenging in the presence of data heterogeneity, requiring the reconciliation of diverse formats, representations, structures, schemas, and semantics across multiple sources. Addressing this complexity is vital to ensure the reliability and utility of data integration and analysis in increasingly information-rich environments. This paper explores EM in heterogeneous data environments, referred to as Heterogeneous EM (HEM), and examines the unique challenges and complexities introduced by heterogeneity. We begin by defining data heterogeneity and categorizing its various types in the context of HEM. Next, we analyze HEM through the lens of the FAIR principles—Findability, Accessibility, Interoperability, and Reusability—discussing the impact of heterogeneity on FAIR compliance and the role of FAIR principles in addressing HEM challenges. We then conduct a comprehensive survey of state-of-the-art EM techniques, evaluating their application and effectiveness in handling heterogeneous data. Additionally, we empirically assess selected EM methods under diverse heterogeneous conditions, with a particular focus on semantic heterogeneity, an area that remains underexplored. Finally, building on our findings, we provide insights into future research directions for advancing HEM.}
+}
+
+
+ 

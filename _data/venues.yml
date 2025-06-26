@@ -1,9 +1,24 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# _data/venue.yml
+SIGMOD:
+  label: "SIGMOD"
+  url:   "https://2024.sigmod.org/"
+  color: "#C41E3A"     # ACM / SIGMOD red
 
-"PhysRev":
-  url: https://journals.aps.org/
+GUIDE-AI:
+  label: "GUIDE-AI"
+  url:   "https://guide-ai-workshop.github.io/"
+  color: "#C41E3A"     # teal
 
-"Vision":
-  color: "#009f36"
+IEEEBigData:
+  label: "IEEE BigData"
+  url:   "https://bigdataieee.org/"
+  color: "#00629B"     # IEEE blue
+
+Preprint:
+  label: "Preprint"
+  color: "#adb5bd"     # neutral grey
+
+
+Thesis:
+  label: "M.Sc. Thesis"
+  color: "#a286e0"   # Indigo (Bootstrap “primary indigo”)
