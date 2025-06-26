@@ -70,7 +70,7 @@ More recently, my research has focused on fairness in data integration and data 
 
 I'm currently seeking research and development roles in responsible AI, fairness in ML, and applied ML. I’m also open to research collaborations across academia and industry. -->
 
-
+<!-- 
 <div style="text-align: justify">
 
   <p>
@@ -88,3 +88,20 @@ I'm currently seeking research and development roles in responsible AI, fairness
 </div>
 <!-- 
 I approach research with an engineering mindset shaped by my undergraduate training at Sharif University, where I worked on biomedical imaging and automatic speech recognition under the supervision of <a href="https://sharif.ir/~aamini/" target="_blank">Dr. Arash Amini</a> and <a href="https://sharif.edu/~sameti/" target="_blank">Dr. Hossein Sameti</a>. -->
+
+
+<div style="text-align: justify">
+
+  <p>
+    I’m a responsible-AI researcher with a background in electrical engineering, focused on developing data-driven methods for trustworthy machine learning. My core interests include fairness, robustness, and explainability in AI systems.
+  </p>
+
+  <p>
+    During my M.Sc. in Computer Science at Western University - under the supervision of <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Dr. Mostafa Milani</a> - I specialized in fairness in data integration and data cleaning. I applied tools from optimal transport, causality, and optimization to design methods that improve both equity and performance in data systems. My work has been published at top venues including SIGMOD and IEEE BigData. I also contributed to interdisciplinary projects in the Economics Department at Huron College with <a href="https://www.samirahasanzadeh.com/" target="_blank">Dr. Samira Hasanzadeh</a>.
+  </p>
+
+  <p>
+    I’m currently looking for R&D roles in responsible AI, algorithmic fairness, and applied ML. I also welcome opportunities for academic or industry collaborations. You can find more details in my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>.
+  </p>
+
+</div>
