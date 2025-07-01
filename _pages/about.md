@@ -93,13 +93,22 @@ I approach research with an engineering mindset shaped by my undergraduate train
 <div style="text-align: justify">
 
   <p>
+    I am a responsible AI researcher with a background in electrical engineering, focusing on developing data-driven methods for trustworthy and responsible AI. My interests include fairness, robustness, and explainability in machine learning systems.
+  </p>
+
+  <p>
+    I completed my M.Sc. in Computer Science at Western University under the supervision of <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Dr. Mostafa Milani</a>, specializing in fairness in data integration and data cleaning. I applied techniques from optimal transport, causality, and optimization to design methods that improve equity and performance in data systems. My work has been published at top venues including SIGMOD and IEEE BigData. I have also contributed to interdisciplinary projects in the Economics Department at Huron College with <a href="https://www.samirahasanzadeh.com/" target="_blank">Dr. Samira Hasanzadeh</a>. For more details, please see my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>.
+  </p>
+
+
+  <!-- <p>
     I’m a responsible-AI researcher with a background in electrical engineering, focused on developing data-driven methods for trustworthy machine learning. My core interests include fairness, robustness, and explainability in AI systems.
   </p>
 
   <p>
     During my M.Sc. in Computer Science at Western University - under the supervision of <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Dr. Mostafa Milani</a> - I specialized in fairness in data integration and data cleaning. I applied tools from optimal transport, causality, and optimization to design methods that improve both equity and performance in data systems. My work has been published at top venues including SIGMOD and IEEE BigData. I also contributed to interdisciplinary projects in the Economics Department at Huron College with <a href="https://www.samirahasanzadeh.com/" target="_blank">Dr. Samira Hasanzadeh</a>. You can find more details in my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>.
   </p>
-  
+   -->
   <!-- 
   <p>
     I’m currently looking for R&D roles in responsible AI, algorithmic fairness, and applied ML. I also welcome opportunities for academic or industry collaborations. You can find more details in my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>. 
@@ -107,3 +116,5 @@ I approach research with an engineering mindset shaped by my undergraduate train
   -->
 
 </div>
+
+
