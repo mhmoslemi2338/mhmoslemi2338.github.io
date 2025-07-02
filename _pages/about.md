@@ -97,8 +97,16 @@ I approach research with an engineering mindset shaped by my undergraduate train
   </p>
 
   <p>
-    I completed my M.Sc. in Computer Science at Western University under the supervision of <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Dr. Mostafa Milani</a>, specializing in fairness in data integration and data cleaning. I applied techniques from optimal transport, causality, and optimization to design methods that improve equity and performance in data systems. My work has been published at top venues including SIGMOD and IEEE BigData. I have also contributed to interdisciplinary projects in the Economics Department at Huron College with <a href="https://www.samirahasanzadeh.com/" target="_blank">Dr. Samira Hasanzadeh</a>. For more details, please see my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>.
+    I completed my M.Sc. in Computer Science at Western University under the supervision of <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Dr. Mostafa Milani</a>, specializing in fairness in data integration and data cleaning. I applied techniques from optimal transport, causality, and optimization to design methods that improve equity and performance in data systems. My work has been published at top venues including SIGMOD and IEEE BigData. I have also contributed to interdisciplinary projects in the Economics Department at Huron College with <a href="https://www.samirahasanzadeh.com/" target="_blank">Dr. Samira Hasanzadeh</a>. For more details, see my <a href="assets/pdf/CV.pdf" target="_blank">full CV</a> or <a href="assets/pdf/R_D_CV.pdf" target="_blank">short CV</a>.
   </p>
+
+
+
+
+
+
+
+
 
 
   <!-- <p>
