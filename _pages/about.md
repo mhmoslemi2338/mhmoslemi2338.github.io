@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master of Computer Science from <a href='https://www.uwo.ca/index.html'>Western Ontario University</a>
+subtitle: PhD student in <a href='https://www.uwo.ca/index.html'>Computer Science</a> and <a href='https://www.ivey.uwo.ca/'>Ivey Business School</a> at Western University
 
 profile:
   align: right
