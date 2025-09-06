@@ -90,7 +90,11 @@ I'm currently seeking research and development roles in responsible AI, fairness
 I approach research with an engineering mindset shaped by my undergraduate training at Sharif University, where I worked on biomedical imaging and automatic speech recognition under the supervision of <a href="https://sharif.ir/~aamini/" target="_blank">Dr. Arash Amini</a> and <a href="https://sharif.edu/~sameti/" target="_blank">Dr. Hossein Sameti</a>. -->
 
 
-<div style="text-align: justify">
+
+
+<!-- VERSION NOT PHD -->
+
+<!-- <div style="text-align: justify">
 
   <p>
     I am a responsible AI researcher with a background in electrical engineering, focusing on developing data-driven methods for trustworthy and responsible AI. My interests include fairness, robustness, and explainability in machine learning systems.
@@ -99,11 +103,25 @@ I approach research with an engineering mindset shaped by my undergraduate train
   <p>
     I completed my M.Sc. in Computer Science at Western University under the supervision of <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Dr. Mostafa Milani</a>, specializing in fairness in data integration and data cleaning. I applied techniques from optimal transport, causality, and optimization to design methods that improve equity and performance in data systems. My work has been published at top venues including SIGMOD and IEEE BigData. I have also contributed to interdisciplinary projects in the Economics Department at Huron College with <a href="https://www.samirahasanzadeh.com/" target="_blank">Dr. Samira Hasanzadeh</a>. For more details, see my <a href="assets/pdf/CV.pdf" target="_blank">full CV</a> or <a href="assets/pdf/RD_CV.pdf" target="_blank">short CV</a>.
   </p>
+ -->
 
 
 
 
 
+
+
+
+
+<div style="text-align: justify">
+
+  <p>
+I am a PhD student at Western University, jointly in Computer Science (with <a href="https://scholar.google.com/citations?hl=en&user=qAZM5KcAAAAJ&view_op=list_works" target="_blank">Boyu Wang</a>) and Ivey Business School (with <a href="https://scholar.google.com/citations?user=ERQSOF8AAAAJ" target="_blank">Bissan Ghaddar</a>). My research focuses on optimization, distributionally robust optimizatio (DRO), and their applications in trustworthy ML and quantitative finance. I completed my M.Sc. with <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Mostafa Milani</a> at Western and my B.Sc. in Electrical Engineering at Sharif University of Technology.
+  </p>
+<!-- 
+  <p>
+    I completed my M.Sc. in Computer Science at Western University under the supervision of <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Dr. Mostafa Milani</a>, specializing in fairness in data integration and data cleaning. I applied techniques from optimal transport, causality, and optimization to design methods that improve equity and performance in data systems. My work has been published at top venues including SIGMOD and IEEE BigData. I have also contributed to interdisciplinary projects in the Economics Department at Huron College with <a href="https://www.samirahasanzadeh.com/" target="_blank">Dr. Samira Hasanzadeh</a>. For more details, see my <a href="assets/pdf/CV.pdf" target="_blank">full CV</a> or <a href="assets/pdf/RD_CV.pdf" target="_blank">short CV</a>.
+  </p> -->
 
 
 
