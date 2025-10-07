@@ -51,6 +51,9 @@ ninja.data = [{
           section: "News",},{id: "news-defended-my-m-sc-thesis-fairness-in-entity-matching-and-blocking-at-western-ontario-university",
           title: 'Defended my M.Sc. thesis: Fairness in Entity Matching and Blocking at Western Ontario...',
           description: "",
+          section: "News",},{id: "news-awarded-western-university-doctoral-excellency-scholarship-cad-160k-for-research-excellence",
+          title: 'Awarded Western University Doctoral Excellency Scholarship (CAD 160k) for research excellence.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
