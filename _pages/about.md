@@ -116,7 +116,21 @@ I approach research with an engineering mindset shaped by my undergraduate train
 <div style="text-align: justify">
 
   <p>
-I am a PhD student at Western University, jointly in Computer Science (with <a href="https://scholar.google.com/citations?hl=en&user=qAZM5KcAAAAJ&view_op=list_works" target="_blank">Boyu Wang</a>) and Ivey Business School (with <a href="https://scholar.google.com/citations?user=ERQSOF8AAAAJ" target="_blank">Bissan Ghaddar</a>). My research focuses on optimization, distributionally robust optimizatio (DRO), and their applications in trustworthy ML and quantitative finance. I completed my M.Sc. with <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Mostafa Milani</a> at Western and my B.Sc. in Electrical Engineering at Sharif University of Technology.
+<!-- I am a PhD student at Western University, jointly in Computer Science (with <a href="https://scholar.google.com/citations?hl=en&user=qAZM5KcAAAAJ&view_op=list_works" target="_blank">Boyu Wang</a>) and Ivey Business School (with <a href="https://scholar.google.com/citations?user=ERQSOF8AAAAJ" target="_blank">Bissan Ghaddar</a>). My research focuses on optimization, distributionally robust optimization (DRO), and their applications in trustworthy ML and quantitative finance. I completed my M.Sc. with <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Mostafa Milani</a> at Western and my B.Sc. in Electrical Engineering at Sharif University of Technology. -->
+
+
+I am a Ph.D. student at Western University, jointly affiliated with the Department of Computer Science (supervised by <a href="https://scholar.google.com/citations?hl=en&user=qAZM5KcAAAAJ&view_op=list_works" target="_blank">Boyu Wang</a>) and the Ivey Business School (supervised by <a href="https://scholar.google.com/citations?user=ERQSOF8AAAAJ" target="_blank">Bissan Ghaddar</a>). My research focuses on optimization and distributionally robust optimization (DRO), with applications in trustworthy machine learning and quantitative finance. I completed my M.Sc. in Computer Science at Western University under the supervision of <a href="https://www.csd.uwo.ca/~mmilani7/" target="_blank">Mostafa Milani</a> and earned my B.Sc. in Electrical Engineering from Sharif University of Technology. In my free time, I train for <a href="https://en.wikipedia.org/wiki/Ironman_Triathlon" target="_blank">triathlon</a> and am currently preparing for the <a href="https://www.ironman.com/races/im703-muskoka" target="_blank">IRONMAN 70.3 Muskoka</a> in July 2026.
+
+
+
+
+
+
+
+
+
+
+
   </p>
 <!-- 
   <p>
